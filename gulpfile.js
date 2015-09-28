@@ -39,4 +39,4 @@ gulp.task('watch', function() {
     gulp.watch('www/app/**/*.ts', ['ts']);
 });
 
-gulp.task('build', ['jade', 'copyLib', 'ts', 'watch']);
+gulp.task('dev', ['jade', 'copyLib', 'ts', 'watch']);
